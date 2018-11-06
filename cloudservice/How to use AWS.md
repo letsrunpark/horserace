@@ -58,8 +58,8 @@ sudo chmod 400 letsrunpark-id_rsa
 -------------------------------
 # 참고
 
-[Colab YouTube] (https://www.youtube.com/watch?v=Y9MqoK5tUkw)
-[Colab 용량, 제약사항] (https://colab.research.google.com/drive/151805XTDg--dgHb3-AXJCpnWaqRhop_2#scrollTo=gsqXZwauphVV)
+[Colab YouTube](https://www.youtube.com/watch?v=Y9MqoK5tUkw)
+[Colab 용량, 제약사항](https://colab.research.google.com/drive/151805XTDg--dgHb3-AXJCpnWaqRhop_2#scrollTo=gsqXZwauphVV)
 
 
-[MarkDown 사용법] (https://heropy.blog/2017/09/30/markdown/)
+[MarkDown 사용법](https://heropy.blog/2017/09/30/markdown/)
