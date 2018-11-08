@@ -1,10 +1,9 @@
 How to use AWS : EC2 ?
-================
+===============================
 
-## 우리가 현재 사용하고 있는 AWS 스펙 : EC2
-
-## AWS EC2 : memory 1GiB
-## EC2에서 쓰는 운영체제 : Linux Redhat (apt-get >>yum)
+- 우리가 현재 사용하고 있는 AWS 스펙 : EC2
+- AWS EC2 : memory 1GiB
+- EC2에서 쓰는 운영체제 : Linux Redhat (apt-get >>yum)
 
 # AWS 시작하기
 1. key 압축 해제
@@ -45,6 +44,29 @@ sudo chmod 400 letsrunpark-id_rsa
 - python3 /tmp/filename.py
 
 -------------------------------
+
+# Crontab 사용법
+- crontab editor 실행하기
+> crontab -e
+
+- crontab 내용 편집하기
+> i = 편집모드
+> esc , :wq = 편집 종료 후 저장
+
+- crontab list 보기
+> crontab -l
+
+### crontab 문법
+
+1. minute hour day month yoil command
+2. 5 * * * * mkdir test-dir
+> * 시 5분에 mkdir test-dir
+
+3. * / 2 * * * * rmdir test-dir
+> 2분마다 rmdir test-dir
+
+-------------------------------
+
 
 # MySQL
 - workbench 통해서 들어가기 & Query 작성
