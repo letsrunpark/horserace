@@ -46,24 +46,29 @@ sudo chmod 400 letsrunpark-id_rsa
 -------------------------------
 
 # Crontab 사용법
-- crontab editor 실행하기
-> crontab -e
 
-- crontab 내용 편집하기
-> i = 편집모드
-> esc , :wq = 편집 종료 후 저장
+### crontab 내용 편집하기
+- crontab -e
+> crontab editor 실행하기
 
-- crontab list 보기
-> crontab -l
+- i = 편집모드
+- esc , :wq = 편집 종료 후 저장
+
+
+- crontab -l
+> crontab list 보기
+
+- crontab -r
+> crontab 내용 삭제
 
 ### crontab 문법
 
-1. minute hour day month yoil command
-2. 5 * * * * mkdir test-dir
-> * 시 5분에 mkdir test-dir
+1. __minute hour day month yoil command__
+2. __5 * * * * mkdir test-dir__
+> __* 시 5분에 mkdir test-dir__
 
-3. * / 2 * * * * rmdir test-dir
-> 2분마다 rmdir test-dir
+3. __*/2 * * * * rmdir test-dir__
+> __2분마다 rmdir test-dir__
 
 -------------------------------
 
