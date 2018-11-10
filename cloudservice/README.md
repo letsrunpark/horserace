@@ -13,8 +13,8 @@ How to use AWS : EC2 ?
 > /tmp : 테스트 코드들 있음
 
 ## Mac Error
-sudo chmod 400 letsrunpark-id_rsa
-비밀번호 : Local PC Password
+- sudo chmod 400 letsrunpark-id_rsa
+- 비밀번호 : Local PC Password
 
 -------------------------------
 
