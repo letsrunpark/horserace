@@ -20,14 +20,13 @@
 ## How to upload & download to github
 
 0. cmd
-1. 처음 pull할 때 = git clone https://github.com/letsrunpark/horserace.git
-2. 이미 local에 생성된 이후 = git pull origin master
-3. horserace라는 디렉토리 생성
-4. 작업
-5. cd horserace
-6. git add .
-7. git commit -m "어떤 내용을 수정했는지 적기!"
-8. git push origin master
-9. username= 자기 github 이름 (ex. github.com/ojin0611이면 ojin0611)
-10. password= 자기 github pw
+1. 처음 pull할 때 = git clone https://github.com/letsrunpark/horserace.git > horserace 디렉토리 생성
+2. 한번이라도 git clone해서 이미 디렉토리가 존재한다면 = cd horserace > git pull origin master
+3. 작업
+4. cd horserace (git clone했을 경우에만)
+5. git add .
+6. git commit -m "어떤 내용을 수정했는지 적기!"
+7. git push origin master
+8. username= 자기 github 이름 (ex. github.com/ojin0611이면 ojin0611)
+9. password= 자기 github pw
 업로드 완료!
