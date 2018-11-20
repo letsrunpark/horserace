@@ -85,7 +85,7 @@ How to use AWS : EC2 ?
 -------------------------------
 # 참고
 
-[Colab YouTube](https://www.youtube.com/watch?v=Y9MqoK5tUkw)
+[Colab YouTube](https://www.youtube.com/watch?v=XRBXMohjQos&t=)
 
 [Colab 용량, 제약사항](https://colab.research.google.com/drive/151805XTDg--dgHb3-AXJCpnWaqRhop_2#scrollTo=gsqXZwauphVV)
 
